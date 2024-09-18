@@ -1,0 +1,60 @@
+inherited Form1_LgXhdpiTb: TForm1_LgXhdpiTb
+  ClientHeight = 828
+  ClientWidth = 480
+  DesignerMasterStyle = 3
+  inherited Layout1: TLayout
+    TabOrder = 3
+  end
+  inherited grid1: TGridPanelLayout
+    Position.Y = 56.000000000000000000
+    Size.Width = 480.000000000000000000
+    Size.Height = 775.000000000000000000
+    TabOrder = 5
+    inherited lb_time1: TLabel
+      Size.Width = 240.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited lb_time2: TLabel
+      Size.Width = 240.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited lb_time1pt: TLabel
+      Size.Width = 240.000000000000000000
+      Size.Height = 187.187866210937500000
+    end
+    inherited lb_time2pt: TLabel
+      Size.Width = 240.000000000000000000
+      Size.Height = 187.187866210937500000
+    end
+    inherited btn_time2del: TButton
+      Position.X = 382.500000000000000000
+      Position.Y = 342.187866210937500000
+      Size.Height = 75.682983398437500000
+    end
+    inherited btn_time1add: TButton
+      Size.Width = 120.000000000000000000
+      Size.Height = 70.952819824218750000
+    end
+    inherited btn_time2add: TButton
+      Size.Width = 120.000000000000000000
+      Size.Height = 70.952819824218750000
+    end
+    inherited btn_time1del: TButton
+      Position.Y = 342.187866210937500000
+      Size.Height = 75.682983398437500000
+    end
+  end
+  inherited grid3: TGridPanelLayout
+    Position.Y = 644.000000000000000000
+    Size.Width = 480.000000000000000000
+  end
+  inherited grid2: TGridPanelLayout
+    Size.Width = 480.000000000000000000
+    inherited btn_mudarT1: TButton
+      Size.Width = 240.000000000000000000
+    end
+    inherited btn_mudart2: TButton
+      Size.Width = 240.000000000000000000
+    end
+  end
+end
